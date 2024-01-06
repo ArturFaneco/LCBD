@@ -15,7 +15,7 @@
 	    $_FILES['foto']['name']*/)){
         session_start();
         $_SESSION['user'] = $_POST['user'];
-				$_SESSION['password'] = $_POST['password'];
+	$_SESSION['password'] = $_POST['password'];
 				
 	       
         echo  "<form action='../View/perfil.php' method='post'>";
